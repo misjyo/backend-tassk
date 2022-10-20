@@ -51,11 +51,8 @@ const login = async (req, res) => {
       const Id = await userValid._id;
       const token = await jwt.sign({ Id }, "asdfghjklqwertyu");
       console.log("first", token);
-      const result = {
-        userValid,
-        token,
-      };
-      res.status(201).json({ status: 201, result });
+
+      res.status(201).json({ status: 201, user: userValid, token: token });
     }
   } catch (error) {
     res.status(401).json(error);
