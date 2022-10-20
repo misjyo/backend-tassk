@@ -1,26 +1,25 @@
- const mongoose = require ("mongoose");
-
+const mongoose = require("mongoose");
 
 const employeeSchema = new mongoose.Schema({
-  name:{
-   type: String,
-
-  },
-
-  techskills:{
+  name: {
     type: String,
   },
 
-  experience:{
+  techSkills: {
     type: String,
   },
 
-  communication:{
+  experience: {
     type: String,
   },
-  company:{
-    type: String,
-}});
 
-const employee = new mongoose.model("employees",employeeSchema); 
+  communication: {
+    type: String,
+  },
+  company: {
+    type: String,
+  },
+});
+
+const employee = mongoose.model("employees", employeeSchema);
 module.exports = employee;
