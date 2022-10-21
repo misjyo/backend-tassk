@@ -5,7 +5,7 @@ const employeeSchema = new mongoose.Schema({
     type: String,
   },
 
-  techSkills: {
+  techskills: {
     type: String,
   },
 

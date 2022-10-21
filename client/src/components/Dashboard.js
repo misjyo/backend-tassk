@@ -50,7 +50,7 @@ const Dashboard = () => {
   return (
     <div>
       <div>
-        <Button>Add Employee </Button>
+        {/* <Button>Add Employee </Button> */}
       </div>
       {data ? (
         <div>

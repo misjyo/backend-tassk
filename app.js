@@ -14,6 +14,7 @@ const mongoose = require("mongoose");
 const connect = async () => {
   const dd = await mongoose.connect(
     "mongodb+srv://Aman:aman1234@cluster0.4v19a.mongodb.net/booking?retryWrites=true"
+    // process.env.DATABASE
   );
   if (!dd) {
     console.log("error");

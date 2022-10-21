@@ -170,8 +170,8 @@ const Register = () => {
             </div>
 
             <button className="btn" onClick={addUserdata}>
-              <NavLink to="/">Log In</NavLink>
-              Sign Up
+              <NavLink to="/">Sign Up</NavLink>
+          
             </button>
             <p>
               Already have an account? <NavLink to="/">Log In</NavLink>

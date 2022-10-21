@@ -4,7 +4,7 @@ import "./header.css";
 import { LoginContext } from "./ContextProvider/Context";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import { useNavigate, NavLink } from "react-router-dom";
+import { useNavigate, NavLink,Link } from "react-router-dom";
 
 const Header = () => {
   const { logindata, setLoginData } = useContext(LoginContext);
@@ -91,8 +91,10 @@ const Header = () => {
                     goError();
                     handleClose();
                   }}
-                >
-                  Logout
+                ><Link to="/">
+                 Logout
+                </Link>
+                 
                 </MenuItem>
               </div>
             )}

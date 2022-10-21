@@ -48,6 +48,8 @@ function App() {
             <Route path="/dash" element={<Dashboard />} />
             <Route path="*" element={<Error />} />
             <Route path="/addemployee" element={<Addemployee />} />
+           
+          
           </Routes>
         </div>
       ) : (

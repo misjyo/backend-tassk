@@ -15,7 +15,7 @@ const addEmp = async (req, res) => {
     }
     const data = {
       name,
-      techSkills: techskills,
+     techskills,
       experience,
       communication,
       company,

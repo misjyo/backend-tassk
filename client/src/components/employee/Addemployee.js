@@ -45,7 +45,7 @@ export default function Addemployee() {
     });
 
     const res = await data.json();
-    // console.log(res.status);
+    console.log(res);
 
     if (res.status === 201) {
       toast.success("Registration Successfully done 😃!", {
