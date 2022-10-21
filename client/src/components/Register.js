@@ -67,7 +67,7 @@ const Register = () => {
     } else {
       // console.log("user registration succesfully done");
 
-      const data = await fetch("http://localhost:3001/register", {
+      const data = await fetch("https://github.com/misjyo/controlf5.git/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

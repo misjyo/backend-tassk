@@ -28,7 +28,7 @@ export default function Addemployee() {
 
     const { name, techskills, experience, communication, company } = inpval;
 
-    const data = await fetch("http://localhost:3001/emp/add-emp", {
+    const data = await fetch("https://github.com/misjyo/controlf5.git/emp/add-emp", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

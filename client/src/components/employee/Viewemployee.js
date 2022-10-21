@@ -7,7 +7,7 @@ export const Viewemployee = () => {
   const [data, setData] = useState([]);
 
   const getData = async () => {
-    let response = await fetch("http://localhost:3001/emp/view-emp", {
+    let response = await fetch("https://github.com/misjyo/controlf5.git/emp/view-emp", {
       method: "GET",
       headers: { token: localStorage.getItem("token") },
     });

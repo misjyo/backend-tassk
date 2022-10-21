@@ -52,7 +52,7 @@ const Login = () => {
         position: "top-center",
       });
 
-      const data = await fetch("http://localhost:3001/login", {
+      const data = await fetch("https://github.com/misjyo/controlf5.git/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
